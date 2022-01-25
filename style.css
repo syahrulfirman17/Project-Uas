@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	background-image: linear-gradient(rgba(42, 58, 74, 0.85),rgba(42, 58, 74, 0.85)), url(tugu.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+#main {
+	background: transparent;
+	width: 100%;
+	height: 50px;
+}
+
+#main.logo {
+	float: left;
+}
+
+.logo {
+	background: url(logo.jpg);
+	width: 75px;
+	height: 75px;
+	background-position: center;
+	background-size: cover;
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+#main nav ul {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#main nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 20px;
+}
+
+#main nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	padding: 6px 13px;
+	transition: 0.5s all ease-out;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover {
+	background: #fd4a47;
+	color: #fff;
+	transition: 0.4s all ease-out;
+}
+
+.text {
+	transform: translate(-50%,_50%);
+	position: absolute;
+	top: 30%;
+	left: 9%;
+}
+
+.text h1 {
+	color: #fd4a37;
+	font-size: 50px;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.text p {
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.text span {
+	width: 4px;
+	height: 20px;
+	background: #fd4a47;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 5%;
+	left: -5%;
+}
+
+.text .btn {
+	width: 150px;
+	height: 35px;
+	border: none;
+	background: #fd4a47;
+	color: #fff;
+	transition: 0.5s all ease-out;
+	font-family: 'Staatliches', cursive;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.text .btn:hover {
+	background: transparent;
+	border: 1px solid #fd4a47;
+	transition: 0.5 all ease-out;
+}
+
+.text h2 {
+	height: 20px;
+}
